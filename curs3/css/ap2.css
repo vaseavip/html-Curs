@@ -1,0 +1,20 @@
+h1 {
+  color: blue;
+}
+h2 {
+  color: green;
+}
+h1,
+h2 {
+  text-align: center;
+}
+p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+div > p {
+  color: red;
+}
+div section p {
+  color: purple;
+}

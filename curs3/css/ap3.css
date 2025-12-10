@@ -1,0 +1,11 @@
+div {
+  border: 2px solid black;
+  border-radius: 25px;
+  width: 100%;
+  max-width: 400px;
+  float: left;
+  height: auto;
+  background-color: rgba(231, 98, 209, 0.699);
+  margin: 20px 15px;
+  padding: 10px 15px 25px 30px;
+}
