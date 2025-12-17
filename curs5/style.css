@@ -1,0 +1,18 @@
+body {
+  counter-reset: Alex;
+}
+h1 {
+  color: blue;
+  counter-reset: Ion;
+}
+h1::before {
+  counter-increment: Alex;
+  content: counter(Alex) ' ';
+}
+h3 {
+  color: green;
+}
+h3::before {
+  counter-increment: Ion;
+  content: counter(Alex) '.' counter(Ion) ' ';
+}

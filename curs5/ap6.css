@@ -1,0 +1,8 @@
+nav {
+  background-color: blueviolet;
+  height: 44px;
+}
+nav > ul {
+  margin: 0;
+  padding: 0;
+}
