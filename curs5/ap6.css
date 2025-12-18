@@ -1,8 +1,43 @@
-nav {
-  background-color: blueviolet;
-  height: 44px;
-}
-nav > ul {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(
+    to right,
+    rgba(185, 196, 251, 1) 27%,
+    rgba(186, 197, 251, 1) 30%,
+    rgba(217, 227, 253, 0.01) 98%,
+    rgba(217, 227, 253, 0) 99%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.portret {
+  display: grid;
+  width: 90%;
+  min-height: 90vh;
+  background: linear-gradient(
+    to right,
+    rgba(250, 186, 252, 1) 0%,
+    rgba(250, 186, 252, 0.99) 1%,
+    rgba(250, 222, 254, 0) 99%,
+    rgba(250, 222, 254, 0) 100%
+  );
+  border: none;
+  border-radius: 20px;
+  align-items: center;
+  box-shadow: 0 rgba(0, 0, 0, 0.15);
+  padding: 20px;
+}
+nav li {
+  display: inline;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
 }
